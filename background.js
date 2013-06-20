@@ -2,7 +2,7 @@
 
 function openQueryTab(info, tab)
 {
-	var query_url = "http://dict.youdao.com/search?le=eng&q=" + info.selectionText;
+	var query_url = "http://dict.youdao.com/search?le=eng&q=" + encodeURIComponent(info.selectionText);
 	chrome.tabs.create({"url":query_url, "active":true});
 }
 
