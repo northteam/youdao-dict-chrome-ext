@@ -1,0 +1,47 @@
+
+body {
+    margin: 10px;
+    background-color: #222222;
+    font-family: arial, sans-serif, simsun;
+}
+
+.option-container {
+    background-color: white;
+    border-radius: 10px;
+    width: 650px;
+    padding: 40px;
+    margin: 40px auto;
+}
+
+.option-header {
+    padding-bottom: 30px;
+}
+
+.option-header .header-logo {
+    display: inline-block;
+    height: 48px;
+    background: url("/icons/icon-48.png") no-repeat;
+}
+
+.option-header h1 {
+    display: inline-block;
+    margin: 0 0 0 60px;
+    line-height: 48px;
+    text-align: middle;
+}
+
+.option-body {
+    padding-bottom: 40px;
+}
+
+.option-section-name {
+    padding-bottom: 5px;
+    margin: 10px 0;
+    font-weight: bold;
+    border-bottom: 2px dotted lightgray;
+}
+
+.option-section-settings {
+    padding-left: 20px;
+}
+

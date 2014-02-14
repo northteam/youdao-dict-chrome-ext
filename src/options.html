@@ -1,23 +1,27 @@
 <html>
   <head>
     <title i18n-content="extension_name"></title>
+    <link rel="stylesheet" type="text/css" href="css/options.css" />
   </head>
   <body>
-    <div class="option-header">
-      <div id="header-logo"></div>
-      <h1><span i18n-content="extension_name"></span><span i18n-content="literal_option"></span></h1>
-    </div>
-    <div class="option-body">
-      <div class="option-section">
-        <div class="option-section-name">
-          <span i18n-content="option_name_open_tab_mode"></span>
+    <div class="option-container">
+      <div class="option-header">
+        <div class="header-logo">
+          <h1><span i18n-content="extension_name"></span><span i18n-content="literal_option"></span></h1>
         </div>
-        <div class="option-section-settings">
-          <input id="option-open-in-existing-tab" type="radio" name="option-group-open-tab-mode" />
-          <label i18n-content="option_lable_open_in_existing_tab" for="option-open-in-existing-tab"></label>
-          <br />
-          <input id="option-open-in-new-tab" type="radio" name="option-group-open-tab-mode" />
-          <label i18n-content="option_lable_open_in_new_tab" for="option-open-in-new-tab"></label>
+      </div>
+      <div class="option-body">
+        <div class="option-section">
+          <div class="option-section-name">
+            <span i18n-content="option_name_open_tab_mode"></span>
+          </div>
+          <div class="option-section-settings">
+            <input id="option-open-in-existing-tab" type="radio" name="option-group-open-tab-mode" />
+            <label i18n-content="option_lable_open_in_existing_tab" for="option-open-in-existing-tab"></label>
+            <br />
+            <input id="option-open-in-new-tab" type="radio" name="option-group-open-tab-mode" />
+            <label i18n-content="option_lable_open_in_new_tab" for="option-open-in-new-tab"></label>
+          </div>
         </div>
       </div>
     </div>
