@@ -1,27 +1,26 @@
 {
-	"extension_name": {
-		"message": "有道词典右键查询",
-		"description": "Name of application"
-	},
-	"extension_description": {
-		"message": "使用有道词典检索单词, 选中中英文单词后, 点击右键, 选择本应用",
-		"description": "Description of application"
-	},
-	"context_title": {
-		"message": "使用有道词典查询 “%s”",
-		"description": "Name of item in context menu"
-	},
-    "literal_option": {
-        "message": "选项"
+    "extension_name": {
+        "message": "\u6709\u9053\u8bcd\u5178\u53f3\u952e\u67e5\u8be2",
+        "description": "Name of application"
     },
-	"option_name_open_tab_mode": {
-		"message": "查询页面打开方式"
-	},
-	"option_lable_open_in_new_tab": {
-		"message": "每次都在新标签页中打开"
-	},
-	"option_lable_open_in_existing_tab": {
-		"message": "在已有标签页中打开"
-	}
-
+    "extension_description": {
+        "message": "\u4f7f\u7528\u6709\u9053\u8bcd\u5178\u68c0\u7d22\u5355\u8bcd, \u9009\u4e2d\u4e2d\u82f1\u6587\u5355\u8bcd\u540e, \u70b9\u51fb\u53f3\u952e, \u9009\u62e9\u672c\u5e94\u7528",
+        "description": "Description of application"
+    },
+    "context_title": {
+        "message": "\u4f7f\u7528\u6709\u9053\u8bcd\u5178\u67e5\u8be2 \u201c%s\u201d",
+        "description": "Name of item in context menu"
+    },
+    "literal_option": {
+        "message": "\u9009\u9879"
+    },
+    "option_name_open_tab_mode": {
+        "message": "\u67e5\u8be2\u9875\u9762\u6253\u5f00\u65b9\u5f0f"
+    },
+    "option_lable_open_in_existing_tab": {
+        "message": "\u5728\u5df2\u6709\u6807\u7b7e\u9875\u4e2d\u6253\u5f00"
+    },
+    "option_lable_open_in_new_tab": {
+        "message": "\u6bcf\u6b21\u90fd\u5728\u65b0\u6807\u7b7e\u9875\u4e2d\u6253\u5f00"
+    }
 }
