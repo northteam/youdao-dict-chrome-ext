@@ -1,14 +1,27 @@
 {
-	"appName": {
+	"extension_name": {
 		"message": "有道词典右键查询",
 		"description": "Name of application"
 	},
-	"appDescription": {
+	"extension_description": {
 		"message": "使用有道词典检索单词, 选中中英文单词后, 点击右键, 选择本应用",
 		"description": "Description of application"
 	},
-	"contextTitle": {
+	"context_title": {
 		"message": "使用有道词典查询 “%s”",
 		"description": "Name of item in context menu"
+	},
+    "literal_option": {
+        "message": "选项"
+    },
+	"option_name_open_tab_mode": {
+		"message": "查询页面打开方式"
+	},
+	"option_lable_open_in_new_tab": {
+		"message": "每次都在新标签页中打开"
+	},
+	"option_lable_open_in_existing_tab": {
+		"message": "在已有标签页中打开"
 	}
+
 }
