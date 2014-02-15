@@ -29,11 +29,11 @@ function option_init()
     var tab_open_mode = obj.tab_open_mode;
     if (tab_open_mode == "option-open-in-new-tab")
     {
-      $("option-open-in-existing-tab").checked = true;
+      $("option-open-in-new-tab").checked = true;
     }
     else
     {
-      $("option-open-in-new-tab").checked = true;
+      $("option-open-in-existing-tab").checked = true;
     }
   });
 }
